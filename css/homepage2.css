@@ -1,0 +1,430 @@
+.clear-fix {
+    clear: both !important;
+    display: block !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+}
+portRow
+/* } */
+
+* {
+    /* background-image:url("../images/milleniumFalconBackground.jpg"); */
+    /* background-image: linear-gradient(to right top, #e7e7f6, #abacbe, #727489, #3c4157, #0a142a); */
+    /* background-image: linear-gradient(to right top, #13368b, #5f62a7, #9693c4, #cbc8e1, #ffffff);    background:lightblue; */
+    /* background-repeat: no-repeat; */
+    padding: 7pts;
+    margin: 7pts;
+}
+
+
+.header1 {
+    color: black
+    /* opacity:.8; */
+}
+
+.title {
+    display: inline-block;
+    /* top: 23px; */
+    margin-top: 5%;
+    margin-left: 6%;
+    font-size: 33pt;
+    text-align:center;
+    color:black;
+
+}
+.title:hover {
+    color:blue;
+}
+.titleLeft {
+    display: inline-block;
+    /* top: 23px; */
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 33pt;
+    text-align:center;
+    color:black;
+
+}
+
+.titleLeft:hover {
+    color:blue;
+}
+.titleJeg {
+    display: inline-block;
+    /* top: 23px; */
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 33pt;
+    text-align:center;
+    color:black;
+}
+.titleJeg:hover {
+    color:blue;
+}
+.titleBurger {
+    display: inline-block;
+    /* top: 23px; */
+    margin-top: 1%;
+    margin-left: 6%;
+    font-size: 33pt;
+    text-align:center;
+    color:black;
+
+}
+.titleBurger:hover {
+    color:blue;
+}
+.holder {
+    margin: 3%;
+    padding: 8%;
+}
+
+.name {
+    color: black
+    /* opacity:.9; */
+}
+
+.connect {
+    color: black;
+    text-align: center;
+
+}
+
+.photo {
+    color: black;
+    margin: 1%;
+    margin-right: 5%;
+    margin-left: 7%;
+    float: left;
+}
+
+
+.short-bio {
+    color: black;
+    margin: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    /* display: inline; */
+    /* opacity:.6; */
+}
+.skillSet {
+    font-size: 13px;
+    margin: 1% 10% 3% 10%;
+    /* margin-bottom: 1%; */
+    margin-top: 1%;
+    padding: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+
+}
+#portfolioTitle {
+    text-align: center;
+    border-top:2pt black solid;
+    border-bottom:2pt black solid;
+    margin: 5% 7% 5% 7%;
+    width: 86%;
+    font-size: 34pt;
+    background:#9fb3bf;
+    /* font-weight:bold; */
+}
+p {
+    color: black
+    /* opacity:.6; */
+}
+
+.allWords {
+    /* position: relative; */
+    /* display: flex; */
+    /* float: left; */
+    margin-left: 38%;
+    margin-top: 3%;
+    width: 47%;
+    font-size: large;
+}
+.allWordsLeft {
+        /* position: relative; */
+    /* display: flex; */
+    /* float: left; */
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 47%;
+    font-size: large;
+    padding-left:2%;
+
+}
+.portRow {
+    /* border: black 2pt solid; */
+    width: 90%;
+    height: 25%;
+    padding: 1%;
+    /* margin: 3%; */
+    margin-left: 5%;
+    margin-right: 3%;
+    /* background: white; */
+    display: inline-block;
+}
+
+#photoOpsPic {
+    position: relative;
+    top: 15%;
+    left: 4%;
+    float: left;
+    width: 207px;
+    height: 368px;
+    background: repeating-radial-gradient(red);
+    /* border: solid 2pt white; */
+    padding: 3pt;
+    padding-right: 8pt;
+    border-radius: 5%;
+    margin:2%;
+    transition: transform .2s;
+
+
+}
+
+
+
+#photoOpsPic:hover {
+    /* background-color:orange; */
+    transform: scale(1.15);
+}
+
+#sumSkill {
+    width:65%;
+}
+#lineBreak {
+    size:10;
+    font-weight: bolder;
+}
+#photoOpsImg {
+    height: 368px;
+    width: 207px;
+    float: left;
+    border-radius: 5%;
+    position: relative;
+    left: 7%;
+    top: -8px;
+}
+
+#myBioPic {
+    height: 160px;
+    width: 140px;
+    /* float:left; */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#box7 {
+    background: white;
+    padding: 3pt;
+    margin: 3pt;
+    font: 15pt;
+    border: solid 2pt white;
+    /* position:absolute; */
+    top: 70px;
+    left: 13px;
+    width: 600px;
+    height: 300px;
+}
+
+
+
+/* the photo ops portfolio row */
+
+/* #rowPhoto {
+    color: black;
+    background: white;
+    padding: 3pt;
+    margin: 3pt;
+    font: 15pt;
+    border: solid 2pt white;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    width: 600px;
+    height: 300px;
+    opacity:.6;
+} */
+
+
+
+
+#photoExpanded {
+    display: none;
+}
+
+#photoExpanded:hover {
+    /* color: darkslategray; */
+    color:blue;
+    /* font-weight:8;
+    opacity:.8; */
+}
+
+/* #photoSum {
+    display: inline-block;
+    float:right;
+} */
+
+#photoSum:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#photoJeg {
+    height: 150pt;
+    width: 150pt;
+    transition: transform .2s;
+    border-radius: 10%;
+    float:right;
+    margin-right:15%;
+    top: 15%;
+    /* padding: 3pt; */
+    /* padding-right: 8pt; */
+    margin-top:2%
+
+
+}
+
+#photoJeg:hover {
+    transform: scale(1.15);
+}
+
+/* #JEGSum {
+    display: block;
+} */
+
+#JEGSum:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#JEGExpand {
+    display: none;
+}
+
+#JEGExpand:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#burgerPic {
+    height: 150pt;
+    width: 150pt;
+    transition: transform .2s;
+    float: left;
+    border-radius: 10%;
+    position: relative;
+    top: 15%;
+    left: 7%;
+    /* background: repeating-radial-gradient(red); */
+    /* border: solid 2pt white; */
+    padding: 3pt;
+    padding-right: 8pt;
+    margin:2%
+}
+
+#burgerPic:hover {
+    transform: scale(1.15);
+}
+
+#burgerExpand {
+    display: none;
+}
+
+#burgerSum {
+    display: block;
+}
+
+#burgerExpand:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#burgerSum:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#friendPic {
+    height: 150pt;
+    width: 150pt;
+    transition: transform .2s;
+    border-radius: 10%;
+    float:right;
+    margin-right: 15%;
+    top: 15%;
+    margin-top:2%;
+
+}
+
+#friendPic:hover {
+    transform: scale(1.15);
+}
+
+#friendExpand {
+    display: none;
+}
+
+#friendSum {
+    display: block;
+}
+
+#friendExpand:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#friendSum:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+.rowJEG {
+    color: black
+}
+
+.rowBurger {
+       /* border: black 2pt solid; */
+       width: 90%;
+       height: 25%;
+       padding: 1%;
+       /* margin: 3%; */
+       margin-left: 5%;
+       margin-right: 3%;
+       /* background: white; */
+       display: inline-block;
+}
+
+.rowFriend {
+    color: black
+    /* opacity:.8; */
+}
+
+#copyright {
+    background-color: #666666;
+    position: relative;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font: 12pt;
+    font: black;
+    display: block;
+    border: solid 2pt white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 7pt;
+}

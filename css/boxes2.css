@@ -1,0 +1,253 @@
+/* boxes stylesheet  Homework attempt 2 */
+
+* {
+    background:white;
+    font:14pt;
+    font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+    
+    
+    }
+    body {
+        padding:10pt;
+    
+    }
+    p {
+        padding-left: 3pt;
+    }
+    h1 h2 h3 {
+        font-family: Georgia, Times, Times New Roman, serif;
+    }
+    
+    #name { 
+        background:#4aaaa5;
+    }
+    #box1 {
+        display:block;
+        background:white;
+        width:90%;
+        border:solid 2pt white;
+        height: 40pt;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:7pt;
+        padding-right:7pt;
+    }
+    
+    #box2 {
+        background:#4aaaa5;
+        margin-left:0pt;
+        padding:2px;
+        left:86pt;
+        width:230px;
+        height:36pt;
+        border:solid 2pt white;
+        position:absolute;
+        display:inline-block;
+        margin-top:0pt;
+        top:16pt;
+        font-size:10pt;
+        text-align:center;
+    
+        
+    }
+    
+    #box3 {
+        background:white;
+        margin-right:0pt;
+        padding-right:7pt;
+        padding-left:7pt;
+        width:250pt;
+        height:40pt;
+        border:solid 2pt white;
+        position:absolute;
+        right:50pt;
+        display:in-line;
+        top:16pt;
+    }
+    
+    #box4 {
+        background:lightgray;
+        display:block;
+        border:solid 2pt white;
+        height:500px;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 7pt;
+        
+        clear: both;
+        
+    
+    }
+    
+    #box5 {
+        background:white;
+        position:absolute;
+        top:100pt;
+        left:0pt;
+        margin-left: 5pt;
+        margin: top 30pt;
+        padding:3pt;
+        border:solid 2pt #dddddd;
+        width:650px;
+        height: 400px;
+        
+        margin-left:115px;
+    
+    }
+    
+    #box6 {
+        background:white;
+        padding:0pt;
+        padding-left:6pt;
+        margin: 3pt;
+        border:solid 2pt white;
+        position:absolute;
+        left:10pt;
+        top:10pt;
+        height:30pt;
+        width:600px;
+        vertical-align:center;
+    
+    
+    }
+    #aboutMe {
+        font-size: 14pt;
+    }
+    
+    #box7 {
+        background:white;
+        padding:3pt;
+        margin: 3pt;
+        font:15pt;
+        border:solid 2pt white;
+        position:absolute;
+        top:70px;
+        left:13px;
+        width:600px;
+        height:300px;
+        
+    
+    }
+    
+    
+    #box8 {
+        /*image bio*/
+        top:100pt;
+        float:left;
+        width:140px;
+        height: 160px;
+        background:white;
+        border:solid 2pt white;
+        padding:3pt;
+        padding-right:8pt;
+    }
+    
+    #myBioPic {
+        height:160px;
+        width:140px;
+    }
+    #box9 {
+        background:white;
+        height:250px;
+        width:270px;
+        position:absolute;
+        padding-top:14px;
+        right:30pt;
+        top:100pt;
+        margin-left:40px;
+        margin-right:65px;
+        border:solid 1pt #dddddd;
+    }
+    
+    #box10 {
+        /*contact me*/
+        background:white;
+        margin-right:6px;
+        margin-left:15px;
+        margin-top:3px;
+        padding:3pt;
+        height:50px;
+        width:225px;
+        font:16pt;
+        text-align:center;
+        border:solid 2pt white;
+    
+    }
+    
+    #box11 {
+        background:white;
+        margin-right:6px;
+        margin-left:15px;
+        margin-top:16px;
+        text-align:center;
+        vertical-align:center;
+        padding:3pt;
+        height: 100px;
+        width:225px;
+        border:solid 2pt white;
+    
+    
+    }
+    #box12 {
+        background-color:#666666;
+        position:relative;
+        display:block;
+        width:90%;
+        text-align:center;
+        font:12pt;
+        font:black;
+        display:block;
+        border: solid 2pt white;
+        margin-left:auto;
+        margin-right:auto;
+        padding:7pt;
+       
+    }
+    
+    #boxa {
+        float:left;
+        clear:left;
+        margin: 3pts;
+        padding:3pts;
+    }
+    
+    #boxb {
+         
+        
+        margin-left: 113pts;
+        padding:1323pts;
+
+    }
+    
+    #boxc {
+        float:left;
+
+    }
+    
+    #boxd {
+        float:left;
+
+    }
+    
+    #boxe {
+
+
+    }
+    
+
+    #boxf {
+
+
+    }
+    
+    #boxg {
+
+
+    }
+    
+    #boxh {
+
+
+    }
+    
