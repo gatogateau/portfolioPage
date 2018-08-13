@@ -21,7 +21,7 @@
 
             </div>
             <div class="col-sm-4 name">
-                <h2>Jerson J. Hatch</h2>
+                <a href="./homePage"><h2>Jerson J. Hatch</h2></a>
                 <h5>Salt Lake City, UT</h5>
                 <H5>jersonhatch@gmail.com</H5>
             </div>
@@ -31,15 +31,16 @@
 
             <div class="col-sm-4">
                 <div class="row connect">
-                    <h6>connect with me</h6>
+                    <h5>Connect with me</h6>
                     <!-- <div class="col-sm-4"> -->
-                    <a href="https://github.com/gatogateau"><img src="../images/github.svg" alt="GIT" width: "45" height="45"></a>
+                    <a href="https://github.com/gatogateau"><img src="../images/github.svg" target=none alt="GIT" width: "45" height="45"></a>
                     <!-- </div>
                     <div class="col-sm-4"> -->
-                    <a href="https://www.linkedin.com/in/jersonhatch/"><img src="../images/linkedin.svg" alt="Linked IN" width: "45" height="45"></a>
+                            <a href="https://docs.google.com/document/d/17ss9vbWPFMlhuReKRlqGpiVdNIlr_617ZkTp3zurwQk/edit?usp=sharing" target=none alt= "resume"><img src="../images/resume.svg" alt="GIT" width: "45" height="45"></a>
+                    <a href="https://www.linkedin.com/in/jersonhatch/"><img src="../images/linkedin.svg" target=none alt="Linked IN" width: "45" height="45"></a>
                     <!-- </div>
                     <div class="col-sm-4"> -->
-                    <a href="https://stackoverflow.com/users/9177811/jerson"><img src="../images/stackoverflow.svg" alt="stack" width: "45" height="45">
+                    <a href="https://stackoverflow.com/users/9177811/jerson"><img src="../images/stackoverflow.svg" target=none alt="stack" width: "45" height="45">
                     <div class="col-sm-1"></a>
 
                     </div>
@@ -54,7 +55,7 @@
 
             <div class="bio">
                 <div class="photo">
-                    <img src="../images/jersonParisPhoto.jpeg" alt="Jerson Hatch" height=auto width=240pt>
+                    <a id="techResume" href="https://docs.google.com/document/d/17ss9vbWPFMlhuReKRlqGpiVdNIlr_617ZkTp3zurwQk/edit?usp=sharing" target= none > <img src="../images/jersonParisPhoto.jpeg" alt="Jerson Hatch" height=auto width=240pt></a>
 
                 </div>
 
@@ -82,7 +83,7 @@
                     <p id="skills">
                         <h3>Full Stack Developer (MERN) focused on javascript</h3>
                         <br>
-                        <h4 id="sumSkills">Full Stack Web Development, Javascript, HTML, Jquery, MySQL, sequelize, Mongo DB, Mongoose, Node
+                        <h4 id="sumSkills">Full Stack Web Development, Javascript, HTML, Jquery, MySQL, Sequelize, Mongo DB, Mongoose, Node
                             JS, React, Express, Firebase, CSS, Handlebars
                         </h4>
                     </p>
@@ -167,7 +168,7 @@
             <hr width="30%" noshade>
             <div class="rowFriend" id="rowfriend">
                 <div>
-                    <div class="titleLeft">Friend Finder</div>
+                    <div class="titleFriend">Friend Finder</div>
                     <a href="https://young-ridge-76005.herokuapp.com/">
                         <img id="friendPic" src="../images/friendsPic1.jpeg" alt="Link to Recipes" height=140pt width=160pt>
                     </a>
@@ -186,8 +187,30 @@
                     </div>
                 </div>
 
-                <hr width="30%" noshade>
 
+            </div>
+            <hr width="30%" noshade>
+            
+            <div class="rowBurger" id="rowBurger">
+                <div>
+                    <div class="titleBurger">NYT Scraper</div>
+                    <!-- need the correct link -->
+                    <a href="https://gatogateau.github.io/scraper/">
+                        <img id="burgerPic" src="../images/nyt.jpg" alt="NYT scraper" height=140pt width=160pt>
+                    </a>
+                </div>
+                <div class="summary">
+                    <div class="burgerSum allWords" id="burgerSum" onclick="burgerExpand ()">
+                        The user can create, devour or save a burger. This is a dynamic page that will update the database
+                            whenever the user selects an action. A practical use for this application would be a "to do"
+                            list.
+                    </div>
+                    <div class="burgerExpand allWords" id="burgerExpand" onclick="burgerExpand ()">
+                            This app utilizes MySQL and Handlebars to render a dynamic page which allows the user to create a burger, then eat or save
+                            the burger. Each action updates the database. The handlebars NPM allows the page to render the
+                            full list of the database and set up several pages using a basic template.
+                    </div>
+                </div>
             </div>
 
 

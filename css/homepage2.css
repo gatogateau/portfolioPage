@@ -53,6 +53,20 @@ portRow
 .titleLeft:hover {
     color:blue;
 }
+.titleFriend {
+    display: inline-block;
+    /* top: 23px; */
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 33pt;
+    text-align:center;
+    color:black;
+
+}
+
+titleFriend:hover {
+    color:blue;
+}
 .titleJeg {
     display: inline-block;
     /* top: 23px; */
@@ -69,7 +83,7 @@ portRow
     display: inline-block;
     /* top: 23px; */
     margin-top: 1%;
-    margin-left: 6%;
+    margin-left: 19%;
     font-size: 33pt;
     text-align:center;
     color:black;
@@ -409,9 +423,20 @@ p {
 }
 
 .rowFriend {
-    color: black
-    /* opacity:.8; */
-}
+    color: black;
+    /* opacity: .8;  */
+    /* border: black 2pt solid; */
+    /* width: 90%; */
+    height: 25%;
+    /* padding: 1%; */
+    padding-bottom: 5%;
+    /* margin: 3%; */
+    /* margin-left: 5%; */
+    /* margin-right: 3%; */
+    /* background: white; */
+    /* display: inline-block; */
+ }
+
 
 #copyright {
     background-color: #666666;
