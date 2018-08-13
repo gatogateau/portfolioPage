@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>portfolio</title>
+
+
+    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="../css/boxes3.css" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/homepage2.css" />
+    <script src="./js/homepage.js"></script>
+</head>
+
+<body>
+    <!-- <div class="holder"> -->
+    <div class="bg">
+        <div class=" row   jumbotron header1">
+            <div class="col-sm-1">
+
+            </div>
+            <div class="col-sm-4 name">
+                <a href="./pages/homePage"><h2>Jerson J. Hatch</h2></a>
+                <h5>Salt Lake City, UT</h5>
+                <H5>jersonhatch@gmail.com</H5>
+            </div>
+            <div class="col-sm-2">
+
+            </div>
+
+            <div class="col-sm-4">
+                <div class="row connect">
+                    <h5>Connect with me</h6>
+                    <!-- <div class="col-sm-4"> -->
+                    <a href="https://github.com/gatogateau"><img src="./images/github.svg" target=none alt="GIT" width: "45" height="45"></a>
+                    <!-- </div>
+                    <div class="col-sm-4"> -->
+                            <a href="https://docs.google.com/document/d/17ss9vbWPFMlhuReKRlqGpiVdNIlr_617ZkTp3zurwQk/edit?usp=sharing" target=none alt= "resume"><img src="./images/resume.svg" alt="GIT" width: "45" height="45"></a>
+                    <a href="https://www.linkedin.com/in/jersonhatch/"><img src="./images/linkedin.svg" target=none alt="Linked IN" width: "45" height="45"></a>
+                    <!-- </div>
+                    <div class="col-sm-4"> -->
+                    <a href="https://stackoverflow.com/users/9177811/jerson"><img src="./images/stackoverflow.svg" target=none alt="stack" width: "45" height="45">
+                    <div class="col-sm-1"></a>
+
+                    </div>
+
+                    <!-- </div>    -->
+                </div>
+            </div>
+        </div>
+        <hr size="2" width="75%">
+
+        <div class="holder2">
+
+            <div class="bio">
+                <div class="photo">
+                    <a id="techResume" href="https://docs.google.com/document/d/17ss9vbWPFMlhuReKRlqGpiVdNIlr_617ZkTp3zurwQk/edit?usp=sharing" target= none > <img src="./images/jersonParisPhoto.jpeg" alt="Jerson Hatch" height=auto width=240pt></a>
+
+                </div>
+
+                <!-- <div class="col-sm-7 short-bio"> -->
+                <p class="short-bio">I have spent the last 15 years working in Finance/Operations, doing everything from Financial Analysis, Operations
+                    Management, Credit Management, President and CEO of a theater upfit company, and most recently an Operations
+                    Principal working with options trading and margin trading.
+                    </br>
+                    </br>
+
+                    I originally started my undergrad in IT, and ultimately decided on finance and management. The last few years I have wanted
+                    to get back into the technology field, and this past year I was able to go back to school and complete
+                    a Full Stack Coding program.
+                    </br>
+                    </br>
+
+                    The more involved I became, the more I learned, the more I realized I enjoyed not only being involved with the tech industry,
+                    but moreso the problem solving involved with coding.</p>
+                <!-- </div> -->
+            </div>
+            <hr width="75%" noshade>
+
+            <div class="rowPhoto " id="lightGray1">
+                <div class="skillSet" id="lightGray1">
+                    <p id="skills">
+                        <h3>Full Stack Developer (MERN) focused on javascript</h3>
+                        <br>
+                        <h4 id="sumSkills">Full Stack Web Development, Javascript, HTML, Jquery, MySQL, Sequelize, Mongo DB, Mongoose, Node
+                            JS, React, Express, Firebase, CSS, Handlebars
+                        </h4>
+                    </p>
+                </div>
+
+            </div>
+
+            <hr width="75%" noshade>
+
+            <h2 id="portfolioTitle">Personal Portfolio</h2>
+
+            <div class="portRow" id="rowPhoto">
+                <div>
+                    <a href="https://glacial-cove-70213.herokuapp.com/home" target="none"><div class="title">Photo-Ops</div></a>
+
+                    <a id="photoOpsPic" href="https://glacial-cove-70213.herokuapp.com/home">
+                        <img id="photoOpsImg" src="./images/photo-ops.jpeg" alt="Photo-ops Assassin">
+                    </a>
+                </div>
+                <p class="photoSum allWords" id="photoSum" onclick="photoExpand ()">
+                    <!-- <div id="buttonSum"> -->
+                    A group interactive game placing friends against each other in a competitve setting. Each player signs up, joins a game and is assigned a target.
+                    The assassin (user) must eliminate the target by using the camera on his/her phone to take a picture of their target. Once the target is eliminated, the assassin receives their target's target. This continues until the last target is eliminated.
+                    <!-- </div> -->
+                </p>
+                <!-- <br> -->
+                <p class="photoExpanded allWords" id="photoExpanded" onclick="photoExpand ()">
+                    <!-- <div id="buttonSum"> -->
+                    <!-- <br> -->
+                    This game showcases the use of ReactJS, passport authentication and facial recognition on the client side. The server side uses Node JS, Mongo DB, Mongoose, and Express. The heavy lifting of this application is done on the server
+                    side, where the majority of the logic is done in the controllers' pages, and the API requests through the routes folders; therefore keeping the site running both secure and efficiently. 
+                    <!-- </div> -->
+                </p>
+            </div>
+            <hr width="30%" noshade>
+            <div class="rowJEG" id="rowJEG" >
+                <div>
+                    <a href="https://gatogateau.github.io/Project1/"><div class="titleJeg" id="titleJeg"onmouseover="clickMe ();" onmouseout="unclickMe ();">Jarvis Environmental <br>Group</div></a>
+                    <a href="https://gatogateau.github.io/Project1/">
+                        <img id="photoJeg" src="./images/hands.jpeg" alt="Link to Recipes" height=140pt width=160pt>
+                    </a>
+                </div>
+                <div class="summary">
+                    <p class="JEGSum allWordsLeft" id="JEGSum" onclick="JEGExpand ()">
+
+                        In this webpage, you can search for any Charity topic and the site will populate with a list of Charities that fit your search
+                        criteria. You can refine the search with a location, or charity type as well. As a side note, in
+                        a header, this site also gives you your current weather based on your IP address location.
+                    </p>
+                    <p class="JEGExpand allWordsLeft" id="JEGExpand" onclick="JEGExpand()">
+
+                        This site showcases an api call to a current Charity Database. With each search, we render the page with the information
+                        and each link is clickable to take you to the respective site. If you choose to donate to the charity,
+                        a link is also set up for direct donations. This is showing the front end work with with CSS, HTML,
+                        and JS api calls.
+                    </p>
+                </div>
+            </div>
+            <hr width="30%" noshade>
+            
+            <div class="rowBurger" id="rowBurger">
+                <div>
+                    <div class="titleBurger">Burgers App</div>
+                    <!-- need the correct link -->
+                    <a href="need to add the correct link">
+                        <img id="burgerPic" src="./images/burger.jpg" alt="Link to burgers app" height=140pt width=160pt>
+                    </a>
+                </div>
+                <div class="summary">
+                    <div class="burgerSum allWords" id="burgerSum" onclick="burgerExpand ()">
+                        The user can create, devour or save a burger. This is a dynamic page that will update the database
+                            whenever the user selects an action. A practical use for this application would be a "to do"
+                            list.
+                    </div>
+                    <div class="burgerExpand allWords" id="burgerExpand" onclick="burgerExpand ()">
+                            This app utilizes MySQL and Handlebars to render a dynamic page which allows the user to create a burger, then eat or save
+                            the burger. Each action updates the database. The handlebars NPM allows the page to render the
+                            full list of the database and set up several pages using a basic template.
+                    </div>
+                </div>
+            </div>
+            <hr width="30%" noshade>
+            <div class="rowFriend" id="rowfriend">
+                <div>
+                    <div class="titleFriend">Friend Finder</div>
+                    <a href="https://young-ridge-76005.herokuapp.com/">
+                        <img id="friendPic" src="./images/friendsPic1.jpeg" alt="Link to Recipes" height=140pt width=160pt>
+                    </a>
+                </div>
+                <div class="summary">
+                    <div class="friendSum allWordsLeft" id="friendSum" onclick="friendExpand ()">
+                         The user fills out a small questionaire and the application searches the database to find the closest
+                            match
+                        
+                    </div>
+
+                    <div class="friendExpand allWordsLeft" id="friendExpand" onclick="friendExpand ()">
+                        This application shows the use of MySql and Javascript to match the user's input to other people
+                            listed in the database. Finding the closest match from the answers inputted by the users.
+                        
+                    </div>
+                </div>
+
+
+            </div>
+            <hr width="30%" noshade>
+            
+            <div class="rowBurger" id="rowBurger">
+                <div>
+                    <div class="titleBurger">NYT Scraper</div>
+                    <!-- need the correct link -->
+                    <a href="https://gatogateau.github.io/scraper/">
+                        <img id="burgerPic" src="./images/nyt.jpg" alt="NYT scraper" height=140pt width=160pt>
+                    </a>
+                </div>
+                <div class="summary">
+                    <div class="burgerSum allWords" id="burgerSum" onclick="burgerExpand ()">
+                        The user can create, devour or save a burger. This is a dynamic page that will update the database
+                            whenever the user selects an action. A practical use for this application would be a "to do"
+                            list.
+                    </div>
+                    <div class="burgerExpand allWords" id="burgerExpand" onclick="burgerExpand ()">
+                            This app utilizes MySQL and Handlebars to render a dynamic page which allows the user to create a burger, then eat or save
+                            the burger. Each action updates the database. The handlebars NPM allows the page to render the
+                            full list of the database and set up several pages using a basic template.
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+    <div id="copyright">
+        <!-- copyright box -->
+        &copy copyright by Beowulf
+    </div>
+
+
+
+</body>
+
+</html>
