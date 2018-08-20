@@ -20,6 +20,9 @@ portRow
     margin: 7pts;
 }
 
+#personalPic {
+    border-radius:10%;
+}
 
 .header1 {
     color: black
