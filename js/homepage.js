@@ -51,6 +51,19 @@ function friendExpand () {
 
 };
 
+function NYTExpand () {
+var x = document.getElementById("NYTExpand");
+var y = document.getElementById("NYTSum");
+if (x.style.display ==="block") {
+    x.style.display="none";
+    y.style.display="block";
+} else {
+    x.style.display = "block";
+    y.style.display="none";
+}
+
+};
+
 // click me on hover
 function clickMe() {
 // var click=document.getElementById("titleJeg");

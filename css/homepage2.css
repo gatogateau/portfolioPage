@@ -301,7 +301,7 @@ p {
     top: 15%;
     /* padding: 3pt; */
     /* padding-right: 8pt; */
-    margin-top:2%
+    margin-top:2%;
 
 
 }
@@ -325,6 +325,45 @@ p {
 }
 
 #JEGExpand:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+#NYTPic{
+    height: 150pt;
+    width: 150pt;
+    transition: transform .2s;
+    float: left;
+    border-radius: 10%;
+    position: relative;
+    top: 15%;
+    left: 7%;
+    /* background: repeating-radial-gradient(red); */
+    /* border: solid 2pt white; */
+    padding: 3pt;
+    padding-right: 8pt;
+    margin:2%;
+    background:black;
+}
+
+#NYTPic:hover {
+    transform: scale(1.15);
+}
+#NYTExpand {
+    display: none;
+}
+
+#NYTSum {
+    display: block;
+}
+
+#NYTExpand:hover {
+    /* color: darkslategray; */
+    color:blue;
+
+}
+
+#NYTSum:hover {
     /* color: darkslategray; */
     color:blue;
 
@@ -420,6 +459,18 @@ p {
        margin-right: 3%;
        /* background: white; */
        display: inline-block;
+}
+
+.rowNYT {
+    /* border: black 2pt solid; */
+    width: 90%;
+    height: 25%;
+    padding: 1%;
+    /* margin: 3%; */
+    margin-left: 5%;
+    margin-right: 3%;
+    /* background: white; */
+    display: inline-block;
 }
 
 .rowFriend {
